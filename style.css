@@ -1,0 +1,62 @@
+/* CSS code */
+body {
+    font-family: 'Roboto', sans-serif; /* Set font family for the entire page to Roboto */
+    /* Center align all text */
+    font-size: 21px; /* Set font size for the body */
+    margin: 0; /* Remove default margin */
+   
+}
+
+header {
+    background-color: #D7D7D7; /* Set background color for header */
+    padding: 100px 0; /* Add space on top and bottom */
+}
+
+section.about-me {
+    background-color: #FFEAEA; /* Set background color for about-me section */
+    padding: 100px 0; /* Add space on top and bottom */
+}
+
+section.articles {
+    background-color: #EAF9FF; /* Set background color for articles section */
+    padding: 100px 0; /* Add space on top and bottom */
+}
+
+.container {
+    width: 570px; /* Set width for the container */
+    margin: 0 auto; /* Center the container horizontally */
+    /* Reset text alignment within the container */
+}
+
+
+
+
+h2 {
+    font-size: 60px; /* Set font size for h2 */
+}
+
+h1 span,
+h2 span {
+    display: block; /* Bold text on its own line */
+    font-weight: bold; /* Set font weight for bold text */
+}
+
+a {
+    color: #99D930; /* Set link color */
+    text-decoration: none; /* Remove underline from links */
+}
+
+a:hover {
+    color: #131313; /* Set link hover color */
+}
+
+p small {
+    font-size: 16px; /* Set font size for small within paragraphs */
+}
+nav{
+    width: 100%;
+    height: 75px;
+    padding: 0px 100px;
+    position: fixed;
+    background-image: -o-linear-gradient(red);
+}
